@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+  --blue: #4359E6;
+  --orange: #E68F43;
+  --gray: #E7E7E7;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Poppins;
+	box-sizing: border-box;
+}
+.btn{
+	border: 3px solid var(--orange);
+	outline: none;
+  	padding: 10px 20px;
+  	margin: 2px;
+  	border-radius: 41px;
+  	background: var(--orange);
+  	background-blend-mode: normal;
+  	box-shadow: 3px 7px 12px -1px rgba(100,100,100,0.5);
+	color: #fff;
+  	font-family: Poppins;
+  	font-size: 17px;
+  	font-weight: 600;
+  	transition: 0.5s;
+  	text-decoration: none;
+}
+.btn:hover{
+	background-color: #fff;
+	color: black;
+}
+
+.btn-blue{
+	background-color: var(--blue);
+	border: 3px solid var(--blue);
+}
+nav{
+	padding: 12px 17px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .logo{
+font-family: Rye;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 75px;
+  color: var(--blue);
+}
+nav .links{
+	margin: 20px;
+}
+nav .links a{
+	margin-left: 10px;
+}
+.bg-blue{
+	background-color: var(--blue);
+}
+.bg-gray{
+	background-color: var(--gray);
+}
+/* Footer styles */
+footer{
+	padding: 40px 280px;
+	
+	background-color: var(--blue);
+	color: white;
+}
+footer .all-links{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+footer .all-links a{
+
+	text-decoration: none;
+	color: white;
+}
+footer .social-links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 2px 300px;
+	margin-bottom: 120px;
+}
+footer .social-links img{
+	
+	width: 35px;
+	
+}
+footer .social-links a{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-items: center;
+	padding: 10px;
+	background-color: white;
+	border-radius: 50%;
+}
+footer .conditions p{
+	margin-top: 60px;
+	font-size: 11px;
+	text-align: center;
+}
+.addresses{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}

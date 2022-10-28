@@ -1,0 +1,163 @@
+.bg-dog{
+	background: url('../icons/dog.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+}
+.bg-dog h1{
+	color: #fff;
+	width: 400px;
+	position: relative;
+	top: 25%;
+	left: 50px;
+	font-size: 50px;
+}
+.jumbo{
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #f0f0f0;
+}
+.card{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 220px;
+	padding: 15px 20px;
+	background-color: var(--blue);
+	border-radius: 10px;
+	color: white;
+}
+
+.bg-orange{
+	background-color: var(--orange);
+}
+.card h2{
+	margin-bottom: 15px;
+}
+.card img{
+	width: 100px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	height: 50vh;
+}
+.container .left{
+	width: 35%;
+	background-color: var(--orange);
+	color: white;
+	text-align: left;
+	padding: 30px 50px;
+	border-radius: 10px;
+}
+
+.left h2{
+	margin-bottom: 80px;
+}
+.left p{
+	font-size: 17px;
+}
+.container .right{
+	width: 58%;
+	background-color: var(--blue);
+	padding: 30px 40px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	align-items: center;
+}
+.right h2{
+	margin-bottom: 50px;
+	
+}
+.right img{
+	width: 400px;
+	margin-bottom: 15px;
+}
+/*
+.right form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+input{
+	padding: 10px;
+	border: none;
+	width: 49%;
+	margin-left: 2px;
+}
+
+.row{
+	margin: 10px 0px;
+}*/
+
+#btn{
+	color: white;
+	
+	margin-left: 2px;
+	background-color: var(--orange);
+	transition: 0.3s;
+	text-decoration: none;
+}
+#btn:hover{
+	opacity: 70%;
+}
+.last-links{
+	margin-bottom: 80px;
+	padding: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	align-items: center;
+}
+.last-links img{
+
+	width: 120px;
+	transition: 0.4s;
+}
+
+.left-side h2{
+	color: var(--orange);
+	margin-bottom: 160px;
+}
+.left-side img{
+	background-color: var(--blue);
+	padding: 20px;
+	border-radius: 40px;
+	border: 10px solid var(--gray);
+	text-align: center;
+}
+
+.right-side img{
+	transform: scaleX(-1);
+	background-color: var(--orange);
+	padding: 20px;
+	border-radius: 40px;
+	border: 10px solid var(--gray);
+	text-align: center;
+}
+.right-side h2{
+	color: var(--blue);
+	margin-bottom: 160px;
+
+}
+.line{
+	width: 10px;
+	height: 50vh;
+	background-color: var(--gray);
+}
+
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: left;
+  width: 300px;
+  padding: 5px;
+  border: none;
+  position: relative;
+	top: 200px;
+	left: 50px;
+  font-size: 17px;
+}

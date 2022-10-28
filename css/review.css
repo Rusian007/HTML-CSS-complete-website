@@ -1,0 +1,42 @@
+body{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	background-color: var(--blue);
+}
+.container{
+	padding: 20px 200px;
+}
+.container h1{
+	margin: 90px 0px 50px 0px;
+	color: white;
+	font-weight: lighter;
+}
+form textarea{
+	width: 100%;
+}
+.reviews{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.reviews p{
+	color: white;
+}
+.reviews img{
+	width: 60px;
+
+}
+.img:hover{
+	transition: .5s;
+	transform: scale(1.3);
+
+}
+.img:active{
+	background-color: blue;
+}
+.button{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	text-align: center;
+}
